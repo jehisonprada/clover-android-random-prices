@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/dialog_error_message_horizontal_padding"
+    android:paddingTop="@dimen/dialog_error_message_vertical_padding"
+    android:paddingRight="@dimen/dialog_error_message_horizontal_padding"
+    android:paddingBottom="@dimen/dialog_error_message_vertical_padding">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingBottom="@dimen/dialog_error_message_tittle_padding_bottom"
+        android:text="@string/dialog_error_tittle"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/dialog_error_message_tittle_text_size" />
+
+    <TextView
+        android:id="@+id/tv_error_message"
+        android:layout_width="@dimen/dialog_text_view_width"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/dialog_error_message_message_text_size" />
+
+    <Button
+        android:id="@+id/btn_ok"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/dialog_button_margin_top"
+        android:background="@color/colorPrimary"
+        android:paddingStart="@dimen/dialog_button_margin_left"
+        android:paddingEnd="@dimen/dialog_button_margin_right"
+        android:text="@string/ok"
+        android:textColor="@color/colorFawn"
+        android:textStyle="bold" />
+
+
+</LinearLayout>

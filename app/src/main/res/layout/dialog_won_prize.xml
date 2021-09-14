@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:foregroundGravity="center">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@android:color/transparent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="@dimen/dialog_won_prize_vertical_margin"
+            android:paddingBottom="@dimen/dialog_won_prize_tittle_padding_bottom"
+            android:text="@string/dialog_won_prize_title"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/dialog_won_prize_title_text_size" />
+
+        <TextView
+            android:layout_width="@dimen/dialog_text_view_width"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/dialog_won_prize_tittle_padding_bottom"
+            android:gravity="center"
+            android:text="@string/dialog_won_prize_text"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/dialog_won_prize_label_text_size" />
+
+        <TextView
+            android:id="@+id/tv_won_prize"
+            android:layout_width="@dimen/dialog_text_view_width"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/dialog_won_prize_tittle_padding_bottom"
+            android:gravity="center"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/dialog_won_prize_message_text_size" />
+
+        <ImageView
+            android:layout_width="@dimen/dialog_won_prize_image_width"
+            android:layout_height="@dimen/dialog_won_prize_image_height"
+            android:background="@mipmap/firework"
+            android:contentDescription="@string/image_descriptor_won_prize"
+            android:scaleType="centerCrop" />
+
+        <Button
+            android:id="@+id/btn_won_prize_ok"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/dialog_won_prize_button_top_margin"
+            android:layout_marginBottom="@dimen/dialog_won_prize_vertical_margin"
+            android:background="@color/colorFawn"
+            android:paddingStart="@dimen/dialog_button_margin_left"
+            android:paddingEnd="@dimen/dialog_button_margin_right"
+            android:text="@string/print"
+            android:textColor="@color/colorGrey"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</ScrollView>

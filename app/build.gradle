@@ -1,0 +1,79 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 28
+    defaultConfig {
+        applicationId "mindbit.de.rubbellosapp"
+        minSdkVersion 17
+        //noinspection ExpiredTargetSdkVersion
+        targetSdkVersion 25
+        versionCode 5
+        versionName "1.4"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        multiDexEnabled true
+        vectorDrawables.useSupportLibrary = true
+    }
+    dataBinding {
+        enabled = true
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    packagingOptions {
+        exclude 'META-INF/DEPENDENCIES.txt'
+        exclude 'META-INF/LICENSE.txt'
+        exclude 'META-INF/NOTICE.txt'
+        exclude 'META-INF/NOTICE'
+        exclude 'META-INF/LICENSE'
+        exclude 'META-INF/DEPENDENCIES'
+        exclude 'META-INF/notice.txt'
+        exclude 'META-INF/license.txt'
+        exclude 'META-INF/dependencies.txt'
+    }
+}
+
+dependencies {
+    ext {
+        clover_sdk_version = '215'
+        support_library_version = '28.0.0'
+        gson_version = '2.8.1'
+        room_version = "1.1.1"
+        arch_lifecycle_version = '1.1.1'
+        junit_version = "4.12"
+        test_runner_version = '1.0.2'
+        espresso_version = '3.0.2'
+    }
+    api fileTree(include: ['*.jar'], dir: 'libs')
+
+    implementation "com.android.support:support-v4:$support_library_version"
+    implementation "com.clover.sdk:clover-android-sdk:$clover_sdk_version"
+    implementation "com.android.support:appcompat-v7:$support_library_version"
+    implementation "com.android.support:preference-v14:$support_library_version"
+    implementation "com.android.support:design:$support_library_version"
+    implementation "com.android.support:recyclerview-v7:$support_library_version"
+    implementation "com.android.support:cardview-v7:$support_library_version"
+    implementation 'com.android.support:multidex:1.0.3'
+
+    //Event Bus
+    implementation 'org.greenrobot:eventbus:3.0.0'
+
+    // Room dependencies
+    implementation "android.arch.persistence.room:runtime:$room_version"
+    annotationProcessor "android.arch.persistence.room:compiler:$room_version"
+    androidTestImplementation "android.arch.persistence.room:testing:$room_version"
+    implementation "android.arch.lifecycle:extensions:$arch_lifecycle_version"
+    annotationProcessor "android.arch.lifecycle:compiler:$arch_lifecycle_version"
+
+    //Retrofit
+    implementation 'com.google.code.gson:gson:2.8.5'
+    implementation 'com.squareup.retrofit2:retrofit:2.4.0'
+    implementation 'com.squareup.retrofit2:converter-gson:2.4.0'
+
+    //test dependencies
+    testImplementation "junit:junit:$junit_version"
+    androidTestImplementation "com.android.support.test:runner:$test_runner_version"
+    androidTestImplementation "com.android.support.test.espresso:espresso-core:$espresso_version"
+}

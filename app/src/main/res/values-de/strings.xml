@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Rubbellos</string>
+
+    <!-- Menu -->
+    <string name="menu_header_title">Scratch &amp; Win</string>
+    <string name="menu_item_home_title">Start</string>
+    <string name="menu_item_settings_title">Einstellungen</string>
+    <string name="menu_item_data_policy_title">Datenschutz</string>
+    <string name="menu_item_imprint_title">Impressum</string>
+    <string name="menu_item_help_title">Hilfe</string>
+
+    <!-- clover account -->
+    <string name="no_account">Es ist kein Clover Konto vorhanden</string>
+
+    <!-- settings fragment -->
+    <string name="empty_description">Bitte füllen Sie das Beschreibungsfeld aus</string>
+    <string name="invalid_amount">Bitte legen Sie eine gültige Menge fest</string>
+    <string name="invalid_odds">Bitte legen Sie einen gültigen Gewinnbetrag fest</string>
+    <string name="data_policy_label">Den Hinweis zum Datenschutz und Nutzungsbedingungen habe ich gelesen</string>
+    <string name="data_policy_keyword">Datenschutz</string>
+    <string name="terms_of_use_keyword">Nutzungsbedingungen</string>
+
+    <!-- Form fragment -->
+    <string name="empty_first_name">Bitte tragen Sie Ihren Vornamen ein</string>
+    <string name="empty_last_name">Bitte tragen Sie Ihren Nachnamen ein</string>
+    <string name="invalid_email">Bitte geben Sie eine gültige E-Mail-Adresse an</string>
+    <string name="data_policy_error">Bitte lesen und akzeptieren Sie die Datenschutzrichtlinien</string>
+    <string name="no_prizes_configured">Zurzeit stehen keine Gewinne zur Verfügung</string>
+
+    <!-- Help fragment -->
+    <string name="help_url_for_merchant">https://www.mindbit.de/rubbellos-app-fuer-clover-mini/quick-user-guide-for-merchants/</string>
+    <string name="help_url_for_customer">https://www.mindbit.de/rubbellos-app-fuer-clover-mini/quick-user-guide-for-customers//</string>
+
+    <!-- Data Privacy Policy Fragment -->
+    <string name="data_privacy_policy_url">https://www.mindbit.de/rubbellos-app-fuer-clover-mini/datenschutzerklaerung-rubbellos-app/</string>
+    <string name="terms_of_use_url">https://www.mindbit.de/rubbellos-app-fuer-clover-mini/nutzungsbedingungen-rubbellos-app/</string>
+
+    <!-- buttons -->
+    <string name="button_next">Weiter</string>
+
+    <!-- General -->
+    <string name="save">Speichern</string>
+    <string name="cancel">Abbrechen</string>
+    <string name="ok">OK</string>
+
+    <!-- description text -->
+    <string name="txt_email">E-Mail-Adresse</string>
+    <string name="txt_first_name">Vorname</string>
+    <string name="txt_last_name">Nachname</string>
+    <string name="txt_description">Beschreibung</string>
+    <string name="txt_amount">Menge</string>
+    <string name="txt_odds">Gewinne</string>
+    <string name="txt_validity">Gültigkeit</string>
+
+    <!-- Dialogs -->
+    <string name="dialog_error_tittle">Fehlermeldung!</string>
+    <string name="dialog_won_prize_title">Herzlichen Glückwunsch!</string>
+    <string name="dialog_won_prize_text">Ihr Gewinn ist:</string>
+    <string name="dialog_won_prize_validity_label">Gültigkeit:</string>
+    <string name="dialog_won_prize_text_date_label">Datum:</string>
+    <string name="dialog_edit_prize_title">Gewinn bearbeiten</string>
+
+    <!-- Prize Selector -->
+    <string name="prize_selector_content_description">Gewinnauswahl</string>
+    <string name="print">Drucken</string>
+
+    <!-- Printing -->
+    <string name="printing_fail">Beim Drucken ist ein Fehler aufgetreten</string>
+
+    <!-- Image content descriptors -->
+    <string name="image_descriptor_won_prize">Bild mit Feuerwerk</string>
+    <string name="image_descriptor_icon_edit">Bild, das einen Bleistift enthält Wenn Sie darauf klicken, können Sie einen Preis bearbeiten</string>
+    <string name="image_descriptor_icon_delete">Bild mit einem Papierkorb Durch Klicken auf diesen können Sie einen Preis löschen</string>
+
+    <!-- Imprint Mindbit -->
+    <string name="imprint_title">Impressum</string>
+    <string name="imprint_mindbit_title">mindbit GmbH</string>
+    <string name="imprint_mindbit_represented_by_title">Vertreten durch</string>
+    <string name="imprint_mindbit_represented_by_content">Sebastian Ludwig, Michail Neumann</string>
+    <string name="imprint_mindbit_register_entry_title">Registereintrag</string>
+    <string name="imprint_mindbit_register_entry_content">Eingetragen im Handelsregister.\nRegistergericht: Amtsgericht Bielefeld\nRegisternummer: HRB 41373</string>
+    <string name="imprint_mindbit_vat_number_title">Umsatzsteuer-ID</string>
+    <string name="imprint_mindbit_vat_number_content">Umsatzsteuer-Identifikationsnummer nach §27a Umsatzsteuergesetz:\nDE 293 416 127</string>
+    <string name="imprint_mindbit_pli_title">Berufshaftpflichtversicherung</string>
+    <string name="imprint_mindbit_pli_content">Net IT by Hiscox, Geltungsbereich: weltweit</string>
+    <string name="imprint_mindbit_paragraph_1">Die mindbit GmbH ist ein IT-Unternehmen aus Ostwestfalen mit zusammengerechnet mehr als 13 Jahren Erfahrung in der IT-Branche. Dabei umfassen unsere Leistungen die vier Bereiche, IT-Beratung &amp; Business-Analyse, Mobile App Entwicklung, Softwareprogrammierung und IT-Fullservice. Insbesondere sind wir darauf spezialisiert unsere Kunden in allen Phasen eines Projektes zu begleiten. Von der Anforderungsanalyse bis zum Rollout stehen wir Ihnen als Entwickler und Berater zur Seite. Neben individuellen Projekten bieten wir auch hauseigene Software und den dazugehörigen Service an.</string>
+    <string name="imprint_mindbit_paragraph_2">Unser Erfolg misst sich an der Zufriedenheit unserer Kunden und Mitarbeiter. Respekt und Wertschätzung sind unsere zentrale Werte, wenn es um die Beziehung zu Kunden, Partnern und Mitarbeitern geht. Wir verzeichnen ein jährliches Umsatzwachstum und sind stolz auf die stetig wachsende Anzahl von Mitarbeitern und Kundenprojekten.</string>
+    <string name="imprint_mindbit_paragraph_3">Bei technischen Fragen bezüglich der Rubbellos-App können Sie sich jederzeit an folgende Adresse wenden:</string>
+    <string name="imprint_mindbit_address">mindbit GmbH\nMeisenstr. 65\n33607 Bielefeld</string>
+    <string name="imprint_mindbit_phone">Telefon: + 49 521 44818320</string>
+    <string name="imprint_mindbit_fax">Telefax: + 49 521 44818323</string>
+    <string name="imprint_mindbit_mail">E-Mail-Adresse: info@mindbit.de</string>
+
+    <!-- Imprint DiK -->
+    <string name="imprint_dik_title">Deutsches Institut für Kassiertechnologie Ltd.</string>
+    <string name="imprint_dik_represented_by_title">Vertreten durch</string>
+    <string name="imprint_dik_represented_by_content">Uwe Tschirschwitz</string>
+    <string name="imprint_dik_register_entry_title">Registereintrag</string>
+    <string name="imprint_dik_register_entry_content">Firmensitz/ Registergericht: Bielefeld\nRegister court: Companies House Cardiff, Nr. 09372672\nRegister number: B 41909</string>
+    <string name="imprint_dik_vat_number_title">Umsatzseuer-ID</string>
+    <string name="imprint_dik_vat_number_content">Steuernummer: 305/5969/0911\nUmsatzsteuer-Identnummer: DE 301 749 768</string>
+    <string name="imprint_dik_paragraph_1">Durch jahrelange Betreuung von Einzelhändlern, Gastronomen und Einkaufsverbänden verfügt die DiK Ltd. (Deutsches Institut für Kassiertechnologie) über umfassende Erfahrung im Bereich POS Technologie und E-Payment. Als kompetenter Partner aller Themen rund um den Point of Sale stehen Beratung und Lösungsimplementierungen im Fokus des Unternehmens.Bedingt durch die derzeit aktuellen Entwicklungen und Regulierungen sowie hohen Bedarf an Aufklärung und der damit verbundenen Beratung im Bereich des bargeldlosen Bezahlens, konzentrieren wir uns nicht nur darauf, für unsere Kunden die maximalen Einsparungsmöglichkeiten zu finden, sondern auch die internen Prozesse zu optimieren.</string>
+    <string name="imprint_dik_paragraph_2">Analysieren, beraten und Einsparungspotenziale ausschöpfen, mit enger Absprache mit unseren Kunden – darauf haben wir uns spezialisiert.</string>
+    <string name="imprint_dik_paragraph_3">Hierzu überprüfen wir Ihre aktuellen Konditionen und auch die technischen Gegebenheiten. Sobald wir die Analyse abgeschlossen haben, erhalten Sie von uns einen Optimierungsfahrplan, um effizienter und günstiger zu agieren. Zudem unterstützen wir Sie jederzeit umfassend bei der technischen Umsetzung und der Einführung von Neuerungen.</string>
+    <string name="imprint_dik_paragraph_4">Bei Fragen rund um das Clover-Terminal können Sie sich jederzeit an die folgende Adresse wenden:</string>
+    <string name="imprint_dik_address">Deutsches Institut für Kassiertechnologie ltd.\nMeisenstr. 65\n33607 Bielefeld</string>
+    <string name="imprint_dik_phone">Telefon: +49 521 2997741</string>
+    <string name="imprint_dik_fax">Telefax: +49 521 2997742</string>
+    <string name="imprint_dik_mail">E-Mail-Adresse: beratung@dik.online</string>
+
+    <!-- Data Protection -->
+    <string name="data_protection_title">Datenschutzerklärung für den End-User von Rubbellos App</string>
+    <string name="data_protection_privacy_policy_title">Datenschutz bei Rubbellos App</string>
+    <string name="data_protection_privacy_policy_content">Um Dienstleistungen anbieten zu können, möchten wir Ihnen diese Datenschutzrichtlinien zur Verfügung stellen, um Sie darüber zu informieren, wie wir personenbezogene Daten sammeln, verwalten und welche Rechte Sie haben. Wenn Sie diesen Bedingungen nicht zustimmen, dann nutzen Sie die Dienste bitte nicht.</string>
+    <string name="data_protection_application_title">Anwendung</string>
+    <string name="data_protection_application_content">Diese Datenschutzrichtlinie ist ausschließlich für die Rubbellos App gültig und nicht für andere Applikationen. Mit diesen Richtlinien informieren wir Sie darüber in welchem Umfang wir Daten erheben, wie lange diese gespeichert werden ob und zu welchem Zwecke Ihre Daten an Dritte weitergegeben werden.</string>
+    <string name="data_protection_use_of_personal_data_title">Verwendung personenbezogener Daten</string>
+    <string name="data_protection_use_of_personal_data_content">Bei der Nutzung der Rubbellos App werden personenbezogene Daten gesammelt (Vorname, Name und E-Mail-Adresse). Ihre Daten werden ohne Ihre Zustimmung nicht an Drittanbieter weitergegeben, vermietet oder verkauft. Mit der Zustimmung der Datenschutzrichtlinie bestätigen Sie Ihr Einverständnis die von Ihnen angegebenen Daten zum späteren Zeitpunkt für eventuelle Werbezwecke nutzen zu können.</string>
+    <string name="data_protection_deletion_of_personal_data_title">Löschung persönlicher Daten</string>
+    <string name="data_protection_deletion_of_personal_data_content">Auf Wunsch können Ihre personenbezogenen Daten jederzeit gelöscht werden. Kontaktieren Sie uns persönlich oder per E-Mail.</string>
+    <string name="data_protection_changes_of_the_privacy_policy_title">Änderungen an den Datenschutzrechlininen von Rubbellos App</string>
+    <string name="data_protection_changes_of_the_privacy_policy_content">Die Datenschutzrichtlinien von Rubbellos App können sich auf Grund gesetzlicher Änderungen und Anpassungen von Zeit zur Zeit ändern, um die Umsetzung des Schutzes Ihrer Persönlichkeitsrechte zu fordern. Wir werden Sie über eventuelle Änderungen per E-Mail informieren.</string>
+
+</resources>

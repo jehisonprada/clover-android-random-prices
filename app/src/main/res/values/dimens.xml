@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!--General-->
+    <dimen name="card_view_corner_radius">4dp</dimen>
+    <dimen name="default_empty_for_using_weight">0dp</dimen>
+    <dimen name="toolbar_title">50sp</dimen>
+    <dimen name="dialog_title">25sp</dimen>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="nav_header_vertical_spacing">8dp</dimen>
+    <dimen name="nav_header_height">176dp</dimen>
+    <dimen name="dialog_text_view_width">300dp</dimen>
+    <dimen name="dialog_button_margin_top">70dp</dimen>
+    <dimen name="dialog_button_margin_left">40dp</dimen>
+    <dimen name="dialog_button_margin_right">40dp</dimen>
+
+    <!--Menu-->
+    <!--this will override all android components using this property-->
+    <dimen name="design_navigation_icon_size" tools:override="true">40dp</dimen>
+    <dimen name="menu_header_text_size">30sp</dimen>
+
+    <!--Form Fragment-->
+    <dimen name="login_form_padding">10dp</dimen>
+    <dimen name="login_form_field_width">290dp</dimen>
+    <dimen name="fragment_form_margin_top">110dp</dimen>
+    <dimen name="form_fragment_field_padding_left">30dp</dimen>
+    <dimen name="form_fragment_field_padding_right">30dp</dimen>
+    <dimen name="form_fragment_field_padding_top">10dp</dimen>
+    <dimen name="form_fragment_field_padding_bottom">10dp</dimen>
+    <dimen name="form_fragment_bottom_layout_padding_top">15dp</dimen>
+    <dimen name="form_fragment_data_protection_label_width">210dp</dimen>
+    <dimen name="form_fragment_data_protection_label_margin_horizontal">5dp</dimen>
+    <dimen name="form_fragment_data_protection_label_text_size">14sp</dimen>
+    <dimen name="form_fragment_next_button_margin_horizontal">30dp</dimen>
+    <dimen name="form_fragment_field_margin_top">12dp</dimen>
+
+    <!--Settings Fragment-->
+    <dimen name="settings_fragment_prize_list_margin_top">8dp</dimen>
+    <dimen name="settings_fragment_prize_list_icon_margin">7dp</dimen>
+
+    <!--Prize Card Selector-->
+    <dimen name="item_prize_card_width">320dp</dimen>
+    <dimen name="item_prize_card_height">280dp</dimen>
+
+    <!--Dialog Edit Prize-->
+    <dimen name="dialog_edit_prize_edit_text_margin">10dp</dimen>
+    <dimen name="dialog_edit_prize_button_width">100dp</dimen>
+    <dimen name="dialog_edit_prize_margin_between_buttons">50dp</dimen>
+
+    <!--Dialog Error Message-->
+    <dimen name="dialog_error_message_vertical_padding">20dp</dimen>
+    <dimen name="dialog_error_message_horizontal_padding">10dp</dimen>
+    <dimen name="dialog_error_message_tittle_padding_bottom">20dp</dimen>
+    <dimen name="dialog_error_message_tittle_text_size">25sp</dimen>
+    <dimen name="dialog_error_message_message_text_size">20sp</dimen>
+
+    <!--Dialog Won Prize-->
+    <dimen name="dialog_won_prize_vertical_margin">20dp</dimen>
+    <dimen name="dialog_won_prize_tittle_padding_bottom">10dp</dimen>
+    <dimen name="dialog_won_prize_image_width">250dp</dimen>
+    <dimen name="dialog_won_prize_image_height">230dp</dimen>
+    <dimen name="dialog_won_prize_button_top_margin">20dp</dimen>
+    <dimen name="dialog_won_prize_merchant_text_size">35sp</dimen>
+    <dimen name="dialog_won_prize_title_text_size">28sp</dimen>
+    <dimen name="dialog_won_prize_label_text_size">22sp</dimen>
+    <dimen name="dialog_won_prize_message_text_size">23sp</dimen>
+    <dimen name="dialog_won_prize_message_date_size">25sp</dimen>
+
+    <!--Print prize layout-->
+    <dimen name="print_prize_layout_margin_vertical">20dp</dimen>
+    <dimen name="print_prize_layout_date_margin_bottom">10dp</dimen>
+
+    <!--Imprint-->
+    <dimen name="imprint_title_text_size">20sp</dimen>
+    <dimen name="imprint_subtitle_text_size">15sp</dimen>
+    <dimen name="imprint_vertical_padding">20dp</dimen>
+    <dimen name="imprint_horizontal_padding">60dp</dimen>
+    <dimen name="imprint_title_padding">10dp</dimen>
+    <dimen name="imprint_text_padding">10dp</dimen>
+
+    <!--Data protection Fragment-->
+    <dimen name="data_protection_vertical_padding">20dp</dimen>
+    <dimen name="data_protection_horizontal_padding">60dp</dimen>
+    <dimen name="data_protection_title_padding">10dp</dimen>
+    <dimen name="data_protection_text_padding">10dp</dimen>
+    <dimen name="data_protection_title_text_size">17sp</dimen>
+
+</resources>

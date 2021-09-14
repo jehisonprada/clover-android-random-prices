@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Rubbellos</string>
+
+    <!-- Menu -->
+    <string name="menu_header_title">Scratch &amp; Win</string>
+    <string name="menu_item_home_title">Home</string>
+    <string name="menu_item_settings_title">Settings</string>
+    <string name="menu_item_data_policy_title">Data Protection</string>
+    <string name="menu_item_imprint_title">Imprint</string>
+    <string name="menu_item_help_title">Help</string>
+
+    <!-- clover account -->
+    <string name="no_account">There is no Clover account.</string>
+
+    <!-- settings fragment -->
+    <string name="empty_description">Please fill description field</string>
+    <string name="invalid_amount">Please set a valid amount value</string>
+    <string name="invalid_odds">Please set a valid odds value</string>
+    <string name="data_policy_label">I have read and accept the data privacy policy and terms of use</string>
+    <string name="data_policy_keyword">data privacy policy</string>
+    <string name="terms_of_use_keyword">terms of use</string>
+
+    <!-- Form fragment -->
+    <string name="empty_first_name">Please write your first name</string>
+    <string name="empty_last_name">Please write your last name</string>
+    <string name="invalid_email">Please provide a valid email</string>
+    <string name="data_policy_error">Please read and accept data policy</string>
+    <string name="no_prizes_configured">There are no available prizes at the moment</string>
+
+    <!-- Help fragment -->
+    <string name="help_url_for_merchant">https://www.mindbit.de/en/rubbellos-app-for-clover-mini/quick-user-guide-for-merchants/</string>
+    <string name="help_url_for_customer">https://www.mindbit.de/en/rubbellos-app-for-clover-mini/quick-user-guide-for-customers/</string>
+
+    <!-- Data Privacy Policy Fragment -->
+    <string name="data_privacy_policy_url">https://www.mindbit.de/en/rubbellos-app-for-clover-mini/privacy-policy-rubbellos-app/</string>
+    <string name="terms_of_use_url">https://www.mindbit.de/en/rubbellos-app-for-clover-mini/terms-of-use-rubbellos-app/</string>
+
+    <!-- buttons -->
+    <string name="button_next">Next</string>
+
+    <!-- General -->
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="ok">OK</string>
+
+    <!-- description text -->
+    <string name="txt_email">Email address</string>
+    <string name="txt_first_name">First name</string>
+    <string name="txt_last_name">Last name</string>
+    <string name="txt_description">Description</string>
+    <string name="txt_amount">Amount</string>
+    <string name="txt_odds">Odds</string>
+    <string name="txt_validity">Validity</string>
+
+    <!-- Dialogs -->
+    <string name="dialog_error_tittle">Error Message!</string>
+    <string name="dialog_won_prize_title">Congratulations!</string>
+    <string name="dialog_won_prize_text">Your prize is:</string>
+    <string name="dialog_won_prize_validity_label">Validity:</string>
+    <string name="dialog_won_prize_text_date_label">Date:</string>
+    <string name="dialog_edit_prize_title">Edit prize</string>
+
+    <!-- Prize Selector -->
+    <string name="prize_selector_content_description">Prize selector</string>
+    <string name="print">Print</string>
+
+    <!-- Printing -->
+    <string name="printing_fail">There was an error while printing</string>
+
+    <!-- Image content descriptors -->
+    <string name="image_descriptor_won_prize">Image containing fireworks</string>
+    <string name="image_descriptor_icon_edit">Image containing a pencil by clicking on this you can edit a prize</string>
+    <string name="image_descriptor_icon_delete">Image containing a trashcan by clicking on this you can delete a prize</string>
+
+    <!-- Imprint Mindbit -->
+    <string name="imprint_title">Imprint</string>
+    <string name="imprint_mindbit_title">mindbit GmbH</string>
+    <string name="imprint_mindbit_represented_by_title">Represented by</string>
+    <string name="imprint_mindbit_represented_by_content">Sebastian Ludwig, Michail Neumann</string>
+    <string name="imprint_mindbit_register_entry_title">Register entry</string>
+    <string name="imprint_mindbit_register_entry_content">Entry in the Commercial Register.\nRegister court: District Court Bielefeld\nRegister number: HRB 41373</string>
+    <string name="imprint_mindbit_vat_number_title">Value Added Tax Identification Number</string>
+    <string name="imprint_mindbit_vat_number_content">VAT no. according to §27a Value Added Tax Act:DE293416127</string>
+    <string name="imprint_mindbit_pli_title">Professional liability insurance</string>
+    <string name="imprint_mindbit_pli_content">Net IT by Hiscox, Territorial validity: worldwide</string>
+    <string name="imprint_mindbit_paragraph_1">mindbit GmbH is an IT company from the region of East Westphalia with more than 13 years experience in the IT industry. Our services contain IT consulting &amp; business analysis, mobile app development, software programming and IT full service. We are specialized to support our customers through all stages of a project. From requirements analysis to roll out, we are there for you as a developer and consultant. In addition to individual projects, we also offer in-house software and the associated service.</string>
+    <string name="imprint_mindbit_paragraph_2">Respect and appreciation are our central values concerning the relationships to our customers, partners and employees. We see annual sales growth and are proud of the ever-growing number of employees and customer projects.</string>
+    <string name="imprint_mindbit_paragraph_3">For technical questions regarding the Rubbellos app, you can always contact the following address:</string>
+    <string name="imprint_mindbit_address">mindbit GmbH\nMeisenstr. 65\n33607 Bielefeld</string>
+    <string name="imprint_mindbit_phone">Phone: + 49 521 44818320</string>
+    <string name="imprint_mindbit_fax">Fax: + 49 521 44818323</string>
+    <string name="imprint_mindbit_mail">E-Mail: info@mindbit.de</string>
+
+    <!-- Imprint DiK -->
+    <string name="imprint_dik_title">Deutsches Institut für Kassiertechnologie Ltd.</string>
+    <string name="imprint_dik_represented_by_title">Represented by</string>
+    <string name="imprint_dik_represented_by_content">Uwe Tschirschwitz</string>
+    <string name="imprint_dik_register_entry_title">Register entry</string>
+    <string name="imprint_dik_register_entry_content">Registered office / register court: Bielefeld\nRegister court: Companies House Cardiff, Nr. 09372672\nRegister number: B 41909</string>
+    <string name="imprint_dik_vat_number_title">Value Added Tax Identification Number</string>
+    <string name="imprint_dik_vat_number_content">Tax number: 305/5969/0911\nAdded Tax Act: DE 301 749 768</string>
+    <string name="imprint_dik_paragraph_1">Through years of service to retailers, restaurateurs and purchasing associations, DiK Ltd. (Deutsches Institut für Kassiertechnologie) has extensive experience in POS technology and e-payment. As a competent partner for all topics around the point of sale, our company has a focus on consulting and solution implementations. Due to current developments and the currently high demand for information and advice in the area of cashless payment, we concentrate on finding the best opportunities for our customers to act more cost-efficient.</string>
+    <string name="imprint_dik_paragraph_2">Analyze, advise and exploit potential savings, with close consultation with our customers - that\'s what we have specialized in.</string>
+    <string name="imprint_dik_paragraph_3">For this, we check your current conditions and the technical data. Once we have completed the analysis, you will receive a plan for optimization in order to act more efficient and cost-saving. In addition, we support you at all times comprehensively with the technical implementation and the introduction of innovations.</string>
+    <string name="imprint_dik_paragraph_4">If you have any questions about the Clover terminal, you can always contact the following address:</string>
+    <string name="imprint_dik_address">Deutsches Institut für Kassiertechnologie ltd.\nMeisenstr. 65\n33607 Bielefeld</string>
+    <string name="imprint_dik_phone">Phone: +49 521 2997741</string>
+    <string name="imprint_dik_fax">Fax: +49 521 2997742</string>
+    <string name="imprint_dik_mail">E-Mail: beratung@dik.online</string>
+
+    <!-- Data Protection -->
+    <string name="data_protection_title">Data Privacy Policy for the End-User of the Rubbellos App</string>
+    <string name="data_protection_privacy_policy_title">Privacy at Rubbellos App</string>
+    <string name="data_protection_privacy_policy_content">In order to provide services, we would like to provide you with this Privacy Policy to let you know how we collect, manage and what are your rights concerning this information. If you do not agree to these terms, please do not use the services.</string>
+    <string name="data_protection_application_title">Application</string>
+    <string name="data_protection_application_content">This Privacy Policy applies only to the Rubbellos App and not to other applications. With these guidelines we inform you about the extent to which we collect data, how long they are stored and for what purpose your data is passed on to third parties.</string>
+    <string name="data_protection_use_of_personal_data_title">Use of personal data</string>
+    <string name="data_protection_use_of_personal_data_content">When using the Rubbellos App personal data is collected (first name, name and e-mail address). Your information will not be shared, rented or sold to third parties without your consent. With the consent of the Privacy Policy, you confirm your consent to use the data you provide at a later date for any advertising.</string>
+    <string name="data_protection_deletion_of_personal_data_title">Deletion of personal data</string>
+    <string name="data_protection_deletion_of_personal_data_content">On request, your personal data can be deleted at any time. Just contact us in person or by e-mail.</string>
+    <string name="data_protection_changes_of_the_privacy_policy_title">Changes to the Privacy Policy of Rubbellos App</string>
+    <string name="data_protection_changes_of_the_privacy_policy_content">Rubbellos App\'s Privacy Policy may change from time to time as a result of legal changes and adjustments to require the implementation of your privacy rights. We will inform you of any changes by e-mail.</string>
+
+</resources>

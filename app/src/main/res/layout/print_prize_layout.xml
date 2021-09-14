@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@android:color/transparent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_merchant_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingBottom="@dimen/dialog_won_prize_tittle_padding_bottom"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/dialog_won_prize_merchant_text_size"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingBottom="@dimen/dialog_won_prize_tittle_padding_bottom"
+        android:text="@string/dialog_won_prize_title"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/dialog_won_prize_title_text_size"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/print_prize_layout_margin_vertical"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/dialog_won_prize_tittle_padding_bottom"
+            android:gravity="center"
+            android:text="@string/dialog_won_prize_text"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/dialog_won_prize_label_text_size"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_prize_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/dialog_won_prize_tittle_padding_bottom"
+            android:layout_marginBottom="@dimen/dialog_won_prize_tittle_padding_bottom"
+            android:gravity="center"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/dialog_won_prize_message_text_size"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/print_prize_layout_margin_vertical"
+        android:layout_marginBottom="@dimen/print_prize_layout_margin_vertical"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/dialog_won_prize_tittle_padding_bottom"
+            android:gravity="center"
+            android:text="@string/dialog_won_prize_validity_label"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/dialog_won_prize_label_text_size"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_prize_validity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/dialog_won_prize_tittle_padding_bottom"
+            android:layout_marginBottom="@dimen/dialog_won_prize_tittle_padding_bottom"
+            android:gravity="center"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/dialog_won_prize_message_text_size"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/print_prize_layout_date_margin_bottom"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/dialog_won_prize_tittle_padding_bottom"
+            android:gravity="center"
+            android:text="@string/dialog_won_prize_text_date_label"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/dialog_won_prize_label_text_size"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_current_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/dialog_won_prize_tittle_padding_bottom"
+            android:layout_marginBottom="@dimen/dialog_won_prize_tittle_padding_bottom"
+            android:gravity="center"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/dialog_won_prize_message_date_size"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+</LinearLayout>

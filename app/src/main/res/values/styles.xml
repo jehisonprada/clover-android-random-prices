@@ -1,0 +1,20 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:windowBackground">@null</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="preferenceTheme">@style/PreferenceThemeOverlay</item>
+        <item name="android:textViewStyle">@style/RubbellosTextViewStyle</item>
+        <item name="android:buttonStyle">@style/RubbellosButtonStyle</item>
+    </style>
+
+    <style name="RubbellosTextViewStyle" parent="android:Widget.TextView">
+        <item name="android:fontFamily">@font/calibri</item>
+    </style>
+
+    <style name="RubbellosButtonStyle" parent="android:Widget.Holo.Button">
+        <item name="android:fontFamily">@font/calibri</item>
+    </style>
+</resources>

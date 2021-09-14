@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/imprint_horizontal_padding"
+    android:paddingRight="@dimen/imprint_horizontal_padding"
+    android:paddingTop="@dimen/imprint_vertical_padding"
+    android:paddingBottom="@dimen/imprint_vertical_padding"
+    android:background="@color/colorGrey"
+    tools:context=".fragments.AboutFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorWhiteWithOpacity">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/calibri"
+            android:orientation="vertical"
+            android:padding="@dimen/imprint_vertical_padding">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/imprint_title"
+                android:textColor="@color/colorPrimary"
+                android:padding="@dimen/data_protection_title_padding"
+                android:textSize="@dimen/imprint_title_text_size"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="@dimen/imprint_title_padding"
+                android:text="@string/imprint_mindbit_title"
+                android:textColor="@color/colorPrimary"
+                android:textSize="@dimen/imprint_subtitle_text_size"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="@dimen/imprint_title_padding"
+                android:text="@string/imprint_mindbit_represented_by_title"
+                android:textColor="@color/colorPrimary" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="@dimen/imprint_text_padding"
+                android:text="@string/imprint_mindbit_represented_by_content" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="@dimen/imprint_title_padding"
+                android:text="@string/imprint_mindbit_register_entry_title"
+                android:textColor="@color/colorPrimary" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="@dimen/imprint_text_padding"
+                android:text="@string/imprint_mindbit_register_entry_content" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="@dimen/imprint_title_padding"
+                android:text="@string/imprint_mindbit_vat_number_title"
+                android:textColor="@color/colorPrimary" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="@dimen/imprint_text_padding"
+                android:text="@string/imprint_mindbit_vat_number_content" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="@dimen/imprint_title_padding"
+                android:text="@string/imprint_mindbit_pli_title"
+                android:textColor="@color/colorPrimary" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="@dimen/imprint_text_padding"
+                android:text="@string/imprint_mindbit_pli_content" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="@dimen/imprint_text_padding"
+                android:text="@string/imprint_mindbit_paragraph_1" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="@dimen/imprint_text_padding"
+                android:text="@string/imprint_mindbit_paragraph_2"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="@dimen/imprint_text_padding"
+                android:text="@string/imprint_mindbit_paragraph_3"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="@dimen/imprint_text_padding"
+                android:text="@string/imprint_mindbit_address"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="@dimen/imprint_text_padding"
+                android:text="@string/imprint_mindbit_phone"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="@dimen/imprint_text_padding"
+                android:text="@string/imprint_mindbit_fax"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="@dimen/imprint_text_padding"
+                android:text="@string/imprint_mindbit_mail"/>
+
+            <!--Start of Dik-->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingTop="30dp"
+                android:paddingLeft="@dimen/imprint_title_padding"
+                android:paddingRight="@dimen/imprint_title_padding"
+                android:paddingBottom="@dimen/imprint_title_padding"
+                android:text="@string/imprint_dik_title"
+                android:textColor="@color/colorPrimary"
+                android:textSize="15sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="@dimen/imprint_title_padding"
+                android:text="@string/imprint_dik_represented_by_title"
+                android:textColor="@color/colorPrimary" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="@dimen/imprint_text_padding"
+                android:text="@string/imprint_dik_represented_by_content" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="@dimen/imprint_title_padding"
+                android:text="@string/imprint_dik_register_entry_title"
+                android:textColor="@color/colorPrimary" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="@dimen/imprint_text_padding"
+                android:text="@string/imprint_dik_register_entry_content" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="@dimen/imprint_title_padding"
+                android:text="@string/imprint_dik_vat_number_title"
+                android:textColor="@color/colorPrimary" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="@dimen/imprint_text_padding"
+                android:text="@string/imprint_dik_vat_number_content" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="@dimen/imprint_text_padding"
+                android:text="@string/imprint_dik_paragraph_1" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="@dimen/imprint_text_padding"
+                android:text="@string/imprint_dik_paragraph_2"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="@dimen/imprint_text_padding"
+                android:text="@string/imprint_dik_paragraph_3"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="@dimen/imprint_text_padding"
+                android:text="@string/imprint_dik_paragraph_4"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="@dimen/imprint_text_padding"
+                android:text="@string/imprint_dik_address"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="@dimen/imprint_text_padding"
+                android:text="@string/imprint_dik_phone"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="@dimen/imprint_text_padding"
+                android:text="@string/imprint_dik_fax"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="@dimen/imprint_text_padding"
+                android:text="@string/imprint_dik_mail"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/prize_selector"
+            android:contentDescription="@string/prize_selector_content_description"
+            android:layout_width="@dimen/item_prize_card_width"
+            android:layout_height="@dimen/item_prize_card_height"
+            android:background="@mipmap/prize_selector_background"
+            android:gravity="center"/>
+</LinearLayout>

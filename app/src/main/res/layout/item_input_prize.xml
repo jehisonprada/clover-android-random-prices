@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_marginTop="@dimen/settings_fragment_prize_list_margin_top">
+
+    <data>
+
+        <variable
+            name="prize"
+            type="mindbit.de.rubbellosapp.persistence.model.Prize" />
+    </data>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cv_input_prizes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:clickable="true"
+        android:focusable="true"
+        android:foreground="?android:attr/selectableItemBackground"
+        card_view:cardCornerRadius="@dimen/card_view_corner_radius">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_settings_prize_description"
+                android:layout_width="@dimen/default_empty_for_using_weight"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:text="@{prize.description}" />
+
+            <TextView
+                android:id="@+id/tv_settings_prize_price"
+                android:layout_width="@dimen/default_empty_for_using_weight"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:text="@{prize.amount}" />
+
+            <TextView
+                android:id="@+id/tv_settings_prize_odds"
+                android:layout_width="@dimen/default_empty_for_using_weight"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:text="@{prize.odds}" />
+
+            <TextView
+                android:id="@+id/tv_settings_prize_validity"
+                android:layout_width="@dimen/default_empty_for_using_weight"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:text="@{prize.validity}" />
+
+            <android.support.v7.widget.SwitchCompat
+                android:id="@+id/cb_enable_item"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="@dimen/settings_fragment_prize_list_icon_margin"
+                android:checked="@={prize.enabled}" />
+
+            <ImageButton
+                android:id="@+id/btn_edit_item"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:layout_gravity="center"
+                android:layout_marginLeft="@dimen/settings_fragment_prize_list_icon_margin"
+                android:layout_marginRight="@dimen/settings_fragment_prize_list_icon_margin"
+                app:srcCompat="@mipmap/edit_prize"
+                android:clickable="true"
+                android:focusable="true"
+                android:contentDescription="@string/image_descriptor_icon_edit"/>
+
+            <ImageButton
+                android:id="@+id/btn_delete_item"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:layout_gravity="center"
+                android:layout_marginEnd="@dimen/settings_fragment_prize_list_icon_margin"
+                app:srcCompat="@mipmap/delete_prize"
+                android:clickable="true"
+                android:focusable="true"
+                android:contentDescription="@string/image_descriptor_icon_delete"/>
+
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+</layout>
